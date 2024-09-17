@@ -1,25 +1,42 @@
 
 .cuadro {
     color: green;
-    
+    background-color: green;
+
+    /* centrado vertical */
+    position: absolute;
+    top: 50%;
+
+    /* centrado horizontal */
+    position: absolute;
+    left: 50%;
+    margin: -25px 0 0 -25px;
 }
 
 .pantalla {
     color: blue;
-    
-    position: relative;
 
-    background-color: orange;
-    border-radius: 15%;
+    margin:10px;
+
+    /* centrado horizontal */
+    display: flex;
+    justify-content: center;
 }
 
 .pantalla a {
+    background-color: orange;
+    border-radius: 20px;
     color: black;
+    padding: 10px 30px;
 }
 
 .botones {
+    margin:10px;
+    display: flex;
+    justify-content: center;
 }
 
 .botones a {
+    margin:5px;
     color: blueviolet;
 }
