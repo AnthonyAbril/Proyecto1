@@ -1,0 +1,25 @@
+
+.cuadro {
+    color: green;
+    
+}
+
+.pantalla {
+    color: blue;
+    
+    position: relative;
+
+    background-color: orange;
+    border-radius: 15%;
+}
+
+.pantalla a {
+    color: black;
+}
+
+.botones {
+}
+
+.botones a {
+    color: blueviolet;
+}
