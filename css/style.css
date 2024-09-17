@@ -36,7 +36,8 @@
     justify-content: center;
 }
 
-.nombres a {
+.nombres p {
     margin:5px;
     color: blueviolet;
+    display: inline;
 }
